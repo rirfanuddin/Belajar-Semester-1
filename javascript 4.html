@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript">
+	function newTitle()
+	{
+		parent.document.title="Ini Judul Baru"
+		document.getElementById("Ini Judul Baru").style.color="Red"
+	}
+	</script>
+</head>
+<body>
+	<p id="Ini Judul Baru">jika tombol ditekan, maka title bar pada browser akan berganti.</p>
+	<form>
+		<input type="text">
+		<input type="button" onclick="newTitle()" value="Ganti Judul" >
+	</form>
+</body>
+</html>
