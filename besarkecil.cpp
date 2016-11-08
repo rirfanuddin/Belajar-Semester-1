@@ -8,6 +8,7 @@ int main(){
     for(i=0;i<n;i++){
         cin >> a[i];
             }
+            //contoh
     for(i=0;i<n;i++){
     if(a[i]<=min){
     min=a[i];
